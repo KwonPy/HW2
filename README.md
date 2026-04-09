@@ -76,25 +76,6 @@
 
 ---
 
-##  프로젝트 구조
-
-```
-HW2/
-├── app/
-│   ├── main.py                 # FastAPI 엔트리포인트
-│   ├── api/endpoints/          # API 라우터
-│   ├── services/               # 추천 엔진 비즈니스 로직
-│   └── schemas/                # Pydantic 데이터 모델
-├── frontend/
-│   ├── index.html              # 메인 UI
-│   ├── style.css               # 글래스모피즘 스타일
-│   └── app.js                  # 프론트 로직
-├── models/                     # SQLAlchemy ORM 모델
-├── db/                         # DB 연결 및 시드 데이터
-├── Dockerfile                  # 컨테이너 빌드 설정
-├── docker-compose.yml          # 멀티 컨테이너 오케스트레이션
-└── .github/workflows/main.yml  # CI/CD 파이프라인
-```
 
 ---
 
